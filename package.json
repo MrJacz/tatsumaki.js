@@ -1,0 +1,35 @@
+{
+  "name": "tatsumaki.js",
+  "version": "0.0.1",
+  "description": "A api wrapper for the Tatsumaki Discord Bot API (THIS IS NOT THE TATSUMAKI's BOTS CODE!!!)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJacz/tatsumaki.js.git"
+  },
+  "keywords": [
+    "Tatsumaki",
+    "api",
+    "api",
+    "wrapper",
+    "wrapper",
+    "tatsumaki.js"
+  ],
+  "author": "Jacz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrJacz/tatsumaki.js/issues"
+  },
+  "homepage": "https://github.com/MrJacz/tatsumaki.js#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "dependencies": {
+    "snekfetch": "^3.6.1"
+  }
+}
