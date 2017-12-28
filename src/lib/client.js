@@ -21,6 +21,7 @@ class Client {
         /**
          * Base url for the client
          * @type {String}
+         * @private
          */
         this.baseUrl = `https://api.tatsumaki.xyz/`;
     }

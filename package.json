@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "A api wrapper for the Tatsumaki Discord Bot API (THIS IS NOT THE TATSUMAKI's BOTS CODE!!!)",
   "main": "src/index.js",
+  "types": "typings/index.d.ts",
   "scripts": {
-    "test": "eslint .",
-    "lint": "eslint --fix ."
+    "test": "eslint . && tslint 'typings/*.ts'",
+    "lint": "eslint --fix . test && tslint --fix 'typings/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -26,9 +27,12 @@
   },
   "homepage": "https://github.com/MrJacz/tatsumaki.js#readme",
   "devDependencies": {
+    "@types/node": "^8.5.2",
     "eslint": "^4.14.0",
     "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0"
+    "eslint-plugin-promise": "^3.6.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
   },
   "dependencies": {
     "snekfetch": "^3.6.1"

@@ -1,3 +1,6 @@
+/**
+ * Tatsumaki User
+ */
 class User {
 
     constructor(data) {
