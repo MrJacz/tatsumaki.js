@@ -27,7 +27,7 @@ class Client {
     }
 
     /**
-     * Fetchs a user for the Tatsumaki API
+     * Fetchs a user from the Tatsumaki API
      * @param {String} userid ID of the user
      * @returns {Promise<User>}
      */
