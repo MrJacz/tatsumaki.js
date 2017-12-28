@@ -4,7 +4,8 @@
   "description": "A api wrapper for the Tatsumaki Discord Bot API (THIS IS NOT THE TATSUMAKI's BOTS CODE!!!)",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint .",
+    "lint": "eslint --fix ."
   },
   "repository": {
     "type": "git",
