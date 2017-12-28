@@ -20,14 +20,15 @@
 			"requireReturn": false,
 			"requireReturnDescription": false,
 			"preferType": {
-				"String": "string",
-				"Number": "number",
-				"Boolean": "boolean",
-				"Symbol": "symbol",
+				"string": "String",
+				"number": "Number",
+				"boolean": "Boolean",
+				"symbol": "Symbol",
 				"function": "Function",
 				"object": "Object",
 				"date": "Date",
-				"error": "Error"
+				"error": "Error",
+				"array": "Array"
 			}
 		}],
 

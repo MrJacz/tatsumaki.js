@@ -5,17 +5,18 @@ class User {
         this.credits = data.credits;
         this.background = data.background;
         this.name = data.name;
-        this.badges = new Map();
-        for (let i = 0; i < data.badgeSlots.length; i++) this.badges.set(i + 1, data.badgeSlots[i]);
+        this.badges = data.badgeSlots;
         this.rank = data.rank;
         this.level = data.level;
         this.xp = data.xp;
-        this.totalXp = data.total_xp;
+        this.currentXp = data.xp[0]; // eslint-disable-line
+        this.nextLevelUpXp = data.xp[1]; // eslint-disable-line
+        this.totalxp = data.total_xp;
         this.reputation = data.reputation;
         this.info = data.info_box;
         this.avatar = data.avatar_url;
 
-        this.rawData = data;
+        Object.defineProperty(this, "rawData", { value: data });
     }
 
 }
