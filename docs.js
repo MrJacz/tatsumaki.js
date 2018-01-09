@@ -5,7 +5,7 @@ Docma.create()
     .build({
         app: {
             title: Package.name,
-            base: '/tatsumaki.js',
+            base: '/',
             entrance: 'content:readme',
             routing: 'query',
             server: Docma.ServerType.GITHUB
