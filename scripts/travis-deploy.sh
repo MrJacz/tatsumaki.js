@@ -27,4 +27,4 @@ git add --all .
 git config user.name "Travis CI"
 git config user.email "${COMMIT_EMAIL}"
 git commit -m "Docs build: ${SHA}" || true
-git push $SSH_REPO $TARGET_BRANCH
+git push "https://${GH_TOKEN}@github.com/MrJacz/tatsumaki.js.git" $TARGET_BRANCH
