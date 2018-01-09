@@ -13,7 +13,6 @@ echo -e "Building for a master branch push - building and deploying."
 
 REPO=$(git config remote.origin.url)
 SHA=$(git rev-parse --verify HEAD)
-SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 
 TARGET_BRANCH="gh-pages"
 git clone $REPO dist -b $TARGET_BRANCH
