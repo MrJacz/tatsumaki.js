@@ -57,3 +57,4 @@ jspm_packages/
 # Custom
 package-lock.json
 testing
+.github
