@@ -18,3 +18,4 @@ tslint.json
 .travis.yml
 package-lock.json
 .eslintignore
+testing
