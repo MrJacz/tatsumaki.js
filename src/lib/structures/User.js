@@ -12,8 +12,7 @@ class User {
         this.rank = data.rank;
         this.level = data.level;
         this.xp = data.xp;
-        this.currentXp = data.xp[0]; // eslint-disable-line
-        this.nextLevelUpXp = data.xp[1]; // eslint-disable-line
+        [this.currentXp, this.nextLevelUpXp] = data.xp;
         this.totalxp = data.total_xp;
         this.reputation = data.reputation;
         this.info = data.info_box;
