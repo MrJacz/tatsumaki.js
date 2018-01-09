@@ -1,3 +1,4 @@
+[![Discord](https://discordapp.com/api/guilds/323779330033319941/embed.png)](https://discord.gg/UXSWb37)
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/tatsumaki.js)
 [![npm downloads](https://img.shields.io/npm/dt/tatsumaki.js.svg?maxAge=3600)](https://www.npmjs.com/package/tatsumaki.js)
 [![NPM version](https://badge.fury.io/js/tatsumaki.js.svg)](http://badge.fury.io/js/tatsumaki.js)
