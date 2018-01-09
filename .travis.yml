@@ -6,6 +6,8 @@ jobs:
   include:
     - stage: test
       script: npm test
+    - stage: deploy
+      script: bash ./scripts/travis-deploy.sh
 cache:
   directories:
     - node_modules
