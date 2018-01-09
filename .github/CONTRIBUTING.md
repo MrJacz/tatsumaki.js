@@ -1,6 +1,6 @@
 # Contributing
 
-If you have a question, you can ask in Tatsumaki's [Discord Server](https://discord.gg/GSZJXHS).
+If you have a question, you can ask in [**Jacz Discord Server**](https://discord.gg/UXSWb37).
 
 To contribute to this repository, feel free to create a new fork of the repository
 submit a pull request. We highly suggest [ESLint](https://eslint.org/) to be installed
