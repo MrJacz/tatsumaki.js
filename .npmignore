@@ -17,3 +17,4 @@ jspm_packages
 tslint.json
 .travis.yml
 package-lock.json
+.eslintignore

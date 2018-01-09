@@ -19,7 +19,7 @@ class User {
         this.info = data.info_box;
         this.avatar = data.avatar_url;
 
-        Object.defineProperty(this, "rawData", { value: data });
+        Object.defineProperty(this, 'rawData', { value: data });
     }
 
 }

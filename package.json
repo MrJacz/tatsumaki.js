@@ -35,6 +35,6 @@
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "snekfetch": "^3.6.1"
+    "superagent": "^3.8.2"
   }
 }

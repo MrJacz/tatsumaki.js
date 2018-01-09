@@ -62,18 +62,15 @@
 		"no-warning-comments": "warn",
 		"wrap-iife": "error",
 		"yoda": "error",
-
 		"no-label-var": "error",
 		"no-shadow": "error",
 		"no-undef-init": "error",
-
 		"callback-return": "error",
 		"handle-callback-err": "error",
 		"no-mixed-requires": "error",
 		"no-new-require": "error",
 		"no-path-concat": "error",
 		"no-process-env": "error",
-
 		"array-bracket-spacing": "error",
 		"block-spacing": "error",
 		"brace-style": ["error", "1tbs", { "allowSingleLine": true }],
@@ -120,7 +117,7 @@
 		"operator-linebreak": ["error", "after"],
 		"padded-blocks": ["error", { "classes": "always", "blocks": "never", "switches": "never" }],
 		"quote-props": ["error", "as-needed"],
-		"quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
+		"quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
 		"semi-spacing": "error",
 		"semi": "error",
 		"space-before-blocks": "error",
