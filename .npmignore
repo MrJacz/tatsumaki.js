@@ -19,3 +19,4 @@ tslint.json
 package-lock.json
 .eslintignore
 testing
+docs
