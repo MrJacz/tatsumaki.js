@@ -8,14 +8,16 @@ declare module 'tatsumaki.js' {
         private baseUrl: string;
 
         public user(key: string): Promise<TatsumakiUser>;
-        public guildLeaderboard(guildId: string): Promise<object[]>;
+        public guildLeaderboard(guildId: string, limit?: number): Promise<object[]>;
 
-        private _get(endpoint: string, classobj?: any): Promise<any>;
+        private _get(endpoint: string, query?: object): Promise<any>;
     }
 
     export { TatsumakiClient as Client };
 
     export class TatsumakiUser {
+        public constructor(data: object);
+
         public title: string;
         public credits: number;
         public background: string;
