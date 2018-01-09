@@ -13,6 +13,7 @@ echo -e "Building for a master branch push - building and deploying."
 
 REPO=$(git config remote.origin.url)
 SHA=$(git rev-parse --verify HEAD)
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 
 TARGET_BRANCH="gh-pages"
 git clone $REPO dist -b $TARGET_BRANCH
@@ -26,4 +27,4 @@ git add --all .
 git config user.name "Travis CI"
 git config user.email "${COMMIT_EMAIL}"
 git commit -m "Docs build: ${SHA}" || true
-git push origin $TARGET_BRANCH
+git push $SSH_REPO $TARGET_BRANCH
