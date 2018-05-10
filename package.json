@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/MrJacz/tatsumaki.js#readme",
   "devDependencies": {
-    "@types/node": "^9.3.0",
+    "@types/node": "^10.0.7",
     "docma": "^1.5.3",
     "eslint": "^4.14.0",
     "eslint-plugin-node": "^6.0.0",
