@@ -36,6 +36,8 @@
       }
     ],
     "$longname": "Client",
+    "$kind": "class",
+    "$docmaLink": "?api=tatsumaki#Client",
     "$members": [
       {
         "comment": "/**\n     * Fetchs guild leaderboard with specified guild id\n     * @param {String} guildId Guild ID\n     * @param {Number} limit Limit query string\n     * @returns {Promise<Array>}\n     */",
@@ -97,7 +99,9 @@
         "kind": "function",
         "memberof": "Client",
         "scope": "instance",
-        "$longname": "Client#guildLeaderboard"
+        "$longname": "Client#guildLeaderboard",
+        "$kind": "method",
+        "$docmaLink": "?api=tatsumaki#Client#guildLeaderboard"
       },
       {
         "comment": "/**\n         * The apikey for the client\n         * @type {String}\n         */",
@@ -129,7 +133,9 @@
         "kind": "member",
         "memberof": "Client",
         "scope": "instance",
-        "$longname": "Client#key"
+        "$longname": "Client#key",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#Client#key"
       },
       {
         "comment": "/**\n     * Fetchs a user\n     * @param {String} userid ID of the user\n     * @returns {Promise<User>}\n     */",
@@ -180,7 +186,9 @@
         "kind": "function",
         "memberof": "Client",
         "scope": "instance",
-        "$longname": "Client#user"
+        "$longname": "Client#user",
+        "$kind": "method",
+        "$docmaLink": "?api=tatsumaki#Client#user"
       }
     ],
     "$constructor": {
@@ -222,7 +230,9 @@
       "kind": "class",
       "scope": "global",
       "undocumented": true,
-      "$longname": "Client"
+      "$longname": "Client",
+      "$kind": "constructor",
+      "$docmaLink": "?api=tatsumaki#Client"
     }
   },
   {
@@ -239,7 +249,7 @@
     "description": "A api wrapper for the Tatsumaki Discord Bot API (THIS IS NOT THE TATSUMAKI's BOTS CODE!!!)",
     "devDependencies": {
       "@types/node": "^10.0.7",
-      "docma": "^1.5.3",
+      "docma": "^2.1.0",
       "eslint": "^4.14.0",
       "eslint-plugin-node": "^6.0.0",
       "eslint-plugin-promise": "^3.6.0",
@@ -269,7 +279,9 @@
       "url": "git+https://github.com/MrJacz/tatsumaki.js.git"
     },
     "version": "0.0.1",
-    "$longname": "package:tatsumaki.js"
+    "$longname": "package:tatsumaki.js",
+    "$kind": "package",
+    "$docmaLink": "?api=tatsumaki#package:tatsumaki.js"
   },
   {
     "comment": "/**\n * Tatsumaki User\n */",
@@ -308,6 +320,8 @@
       }
     ],
     "$longname": "User",
+    "$kind": "class",
+    "$docmaLink": "?api=tatsumaki#User",
     "$members": [
       {
         "comment": "/**\n         * The user's avatar from discord\n         * @type {String}\n         */",
@@ -339,7 +353,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#avatar"
+        "$longname": "User#avatar",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#avatar"
       },
       {
         "comment": "/**\n         * The user's equipped background name\n         * @type {String}\n         */",
@@ -371,7 +387,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#background"
+        "$longname": "User#background",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#background"
       },
       {
         "comment": "/**\n         * Array of badges the user has equipped\n         * @type {Array<String|null>}\n         */",
@@ -403,7 +421,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#badges"
+        "$longname": "User#badges",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#badges"
       },
       {
         "comment": "/**\n         * Credits that you use to purchase things from Tatsumaki bot.\n         * @type {Number}\n         */",
@@ -435,7 +455,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#credits"
+        "$longname": "User#credits",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#credits"
       },
       {
         "comment": "/**\n         * The user's current xp\n         * @type {Number}\n         */",
@@ -467,7 +489,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#currentXp"
+        "$longname": "User#currentXp",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#currentXp"
       },
       {
         "comment": "/**\n         * The user's info box\n         * @type {String}\n         */",
@@ -499,7 +523,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#info"
+        "$longname": "User#info",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#info"
       },
       {
         "comment": "/**\n         * Global level\n         * @type {Number}\n         */",
@@ -531,7 +557,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#level"
+        "$longname": "User#level",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#level"
       },
       {
         "comment": "/**\n         * The user's username\n         * @type {String}\n         */",
@@ -563,7 +591,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#name"
+        "$longname": "User#name",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#name"
       },
       {
         "comment": "/**\n         * The xp till the user's next level up\n         * @type {Number}\n         */",
@@ -595,7 +625,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#nextLevelUpXp"
+        "$longname": "User#nextLevelUpXp",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#nextLevelUpXp"
       },
       {
         "comment": "/**\n         * Global rank\n         * @type {Number}\n         */",
@@ -627,7 +659,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#rank"
+        "$longname": "User#rank",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#rank"
       },
       {
         "comment": "/**\n         * The number of reputation points the user has\n         * @type {Number}\n         */",
@@ -659,7 +693,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#reputation"
+        "$longname": "User#reputation",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#reputation"
       },
       {
         "comment": "/**\n         * Title box\n         * @type {String}\n         */",
@@ -691,7 +727,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#title"
+        "$longname": "User#title",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#title"
       },
       {
         "comment": "/**\n         * The user's global total xp\n         * @type {Number}\n         */",
@@ -723,7 +761,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#totalxp"
+        "$longname": "User#totalxp",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#totalxp"
       },
       {
         "comment": "/**\n         * Array of currentXp and level till next level up\n         * @type {Array<Number>}\n         */",
@@ -755,7 +795,9 @@
         "kind": "member",
         "memberof": "User",
         "scope": "instance",
-        "$longname": "User#xp"
+        "$longname": "User#xp",
+        "$kind": "property",
+        "$docmaLink": "?api=tatsumaki#User#xp"
       }
     ],
     "$constructor": {
@@ -797,7 +839,9 @@
       "kind": "class",
       "scope": "global",
       "undocumented": true,
-      "$longname": "User"
+      "$longname": "User",
+      "$kind": "constructor",
+      "$docmaLink": "?api=tatsumaki#User"
     }
   }
 ]
