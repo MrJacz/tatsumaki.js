@@ -33,7 +33,7 @@
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.6.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.6.2"
+    "typescript": "^3.7.3"
   },
   "dependencies": {
     "superagent": "^3.8.2"
